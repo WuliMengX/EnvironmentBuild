@@ -1,0 +1,4 @@
+克隆报错：Failed to connect to github.com port 443 after 21098 ms: Timed out
+解决：
+    取消代理：git config --global --unset https.proxy
+             git config --global --unset http.proxy
